@@ -4,10 +4,9 @@ import pprint
 import tunet
 
 
-username = 'username'
-password = 'password'
-
 if __name__ == '__main__':
+    username = input("Username:")
+    password = input("Password:")
     pprint.pprint(tunet.auth4.checklogin())
     pprint.pprint(tunet.auth4.login(username, password))
     pprint.pprint(tunet.net.checklogin())
