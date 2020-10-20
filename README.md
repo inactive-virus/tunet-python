@@ -1,3 +1,5 @@
+# 自用Fork
+
 # tunet-python
 
 TUNet 2018 认证协议的纯 python 实现，含 auth4 / auth6 / net 认证。适用于服务器在无人交互时自动认证。
