@@ -36,8 +36,8 @@ def _subdomain_info(subdomain):
 
 
 def _auth_login(ipv, username, password, net=False):
-    if not net:
-        username = '{}@tsinghua'.format(username)
+    #if not net:
+    #    username = '{}@tsinghua'.format(username)
     res = lib.getJSON(
         'https://auth{:d}.tsinghua.edu.cn/cgi-bin/srun_portal'.format(ipv),
         {
